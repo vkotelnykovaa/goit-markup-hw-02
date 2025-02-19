@@ -30,14 +30,28 @@ li {
 
 }
 
-.logo-brand{
-   font-family: 'Raleway', sans-serif;
+.logo-brand {
+   font-family: "Raleway", sans-serif;
    font-weight: 700;
    font-size: 18px;
    line-height: 1.17;
-   letter-spacing: 0.3em;
+   letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
+}
+
+.navigation_item a {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+   text-decoration: none;
+}
+
+.navigation_item a:hover,
+.navigation_item a:focus {
+   color: #404bbf;
 }
 
 .title-two {
@@ -82,7 +96,8 @@ li {
 } 
 
 
-.order_but:hover {
+.order_but:hover,
+.order_but:focus {
    background-color: #404BBF;
    
 }
@@ -96,7 +111,7 @@ li {
    background-color: #F4F4FD;
 }
 
-.contacts{
+.contacts-address{
    font-style: normal;
    letter-spacing: 0.02em;
 }
